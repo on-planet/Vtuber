@@ -1,0 +1,53 @@
+.menuBar {
+    -fx-border-radius: 5px;
+}
+
+.custom-slTime {
+    /* 基础颜色 */
+    -slider-filled-track-color: red;
+    -slider-track-color: linear-gradient(to right, white 0%, white 100%);
+}
+
+.custom-slTime .track {
+    -fx-base: white;
+    -fx-background-color: -slider-track-color;
+    -fx-background-radius: 0;
+}
+
+.custom-slTime .thumb {
+    -fx-opacity: 0;
+    -fx-background-color: -slider-filled-track-color;
+}
+
+.custom-slTime:hover .thumb {
+    -fx-opacity: 1;
+}
+
+.custom-slVolume {
+    /* 基础颜色 */
+    -slider-filled-track-color: grey;
+    -slider-track-color: -slider-filled-track-color;
+}
+
+.custom-slVolume .track {
+    -fx-base: white;
+    -fx-background-color: -slider-track-color;
+    -fx-background-radius: 0;
+}
+
+.custom-slVolume .thumb {
+    -fx-opacity: 0;
+    -fx-background-color: -slider-filled-track-color;
+}
+
+.custom-left_start{
+    -fx-opacity: 0;
+    -fx-background-color: #DBE2EF;
+}
+
+.custom-left_start:hover {
+    -fx-opacity: 1;
+    -fx-background-color: #DDE6ED;
+}
+
+
